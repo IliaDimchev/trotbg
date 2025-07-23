@@ -1,3 +1,7 @@
 from django.contrib import admin
+from TimeToFly.web.models import Flight, Passenger, Town
 
-# Register your models here.
+
+admin.site.register(Flight)
+admin.site.register(Passenger)
+admin.site.register(Town)
