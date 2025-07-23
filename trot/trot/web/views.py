@@ -1,8 +1,8 @@
 from django.contrib.auth import mixins as auth_mixins
 from django.views import generic as views
 from django.urls import reverse_lazy
-from TimeToFly.web.models import Flight, Passenger
-from TimeToFly.auth_app.models import AppUser
+from trot.web.models import Flight, Passenger
+from trot.auth_app.models import AppUser
 from django.shortcuts import redirect
 
 

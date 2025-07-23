@@ -1,5 +1,5 @@
 from django.contrib import admin
-from TimeToFly.web.models import Flight, Passenger, Town
+from trot.web.models import Flight, Passenger, Town
 
 
 admin.site.register(Flight)

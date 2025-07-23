@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.validators import MinLengthValidator, MinValueValidator
 from django.contrib import admin
-from TimeToFly.auth_app.models import AppUser
+from trot.auth_app.models import AppUser
 from django.core.exceptions import ValidationError
 
 class Town(models.Model):
