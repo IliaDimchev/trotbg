@@ -1,10 +1,14 @@
 {% extends 'base/base.html' %}
-{% block page_content %}
+
+{% block title %}TROT.BG - Регистрация{% endblock %}
+
+{% block content %}
+
 <form action="{% url 'register user' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form }}
     {{ profile_form }}
-        <button class="mdc-button foo-button">
+        <button >
             <div class="mdc-button__ripple"></div>
             <span class="mdc-button__label">Register</span>
         </button>

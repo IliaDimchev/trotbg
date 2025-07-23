@@ -1,5 +1,8 @@
 {% extends 'base/base.html' %}
-{% block page_content %}
+
+{% block title %}TROT.BG - Изтреване на профил{% endblock %}
+
+{% block content %}
     <form method="POST" action="{% url 'delete profile' object.pk %}" enctype="multipart/form-data">
         {% if is_owner %}
             {% csrf_token %}
