@@ -1,5 +1,5 @@
 from django.urls import path, include
-from TimeToFly.auth_app.views import UserRegistrationView, UserLoginView, UserLogoutView, EditProfileView, ShowProfileView, DeleteProfileView
+from trot.auth_app.views import UserRegistrationView, UserLoginView, UserLogoutView, EditProfileView, ShowProfileView, DeleteProfileView
 
 urlpatterns = (
     path('register/', UserRegistrationView.as_view(), name='register user'),
