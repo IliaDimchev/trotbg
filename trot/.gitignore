@@ -1,4 +1,6 @@
 .env
+trot/.env
+trot/settings,py
 node_modules/
 db.sqlite3
 trot/__pycache__/
